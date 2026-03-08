@@ -1,0 +1,18 @@
+# MTG AI Deck Builder — Dependencies
+# Install: pip install -r requirements.txt
+
+# Core data and HTTP
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0
+beautifulsoup4>=4.12.0
+
+# Machine learning and NLP (semantic analysis module)
+scikit-learn>=1.3.0
+sentence-transformers>=2.2.0
+
+# Deck name analysis
+inflect>=7.0.0
+
+# Utilities
+lxml>=4.9.0         # Faster HTML parser for BeautifulSoup
